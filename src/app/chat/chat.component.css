@@ -1,0 +1,61 @@
+ul {
+  list-style-type: none;
+}
+.component-cont{
+  width: 900px;
+  background: #1e1f22;
+  border-radius: 15px;
+  color: #6d7077;
+}
+.Header{
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.Name{
+  margin-left: 200px;
+  margin-top: 15px;
+  background: #3a3b3f;
+  border-radius: 15px;
+  border: 0px;
+  color: #969aa4;
+  font-size: 22px;
+}
+.Messages{
+  overflow: auto;
+  width: 830px;
+  height: 750px;
+  background: #3a3b3f;
+  border-radius: 25px;
+  margin-left: 15px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.MSG{
+  margin: 15px;
+  background: #3a3b3f;
+  border-radius: 15px;
+  border: 0px;
+  color: #969aa4;
+  font-size: 22px;
+  height: 50px;
+  width: 700px;
+}
+.BTN{
+  margin: 15px;
+  background: #6d7077;
+  border-radius: 15px;
+  border: 0px;
+  color: #3a3b3f;
+  font-size: 22px;
+  height: 50px;
+}
+.BTN:hover{
+  background: #3a3b3f;
+  color: #969aa4;
+}
+.Online{
+  margin-left: 60px;
+  margin-top: 30px;
+}

@@ -1,0 +1,10 @@
+<div class="component-cont">
+  <div class="Header">
+    <h1>ЧАТ</h1>
+    <h3 class="Online">КОЛ-ВО ПОСЕТИТЕЛЕЙ: {{ countUsers }}</h3>
+    <input class="Name" [(ngModel)]="currentName" type="text" placeholder="Введите имя">
+  </div>
+  <ul class="Messages"></ul>
+  <input class="MSG" [(ngModel)]="currentMessage" type="text" placeholder="Введите сообщение">
+  <button class="BTN" (click)="sendMessage()">Отправить</button>
+</div>
